@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(41, 39, 39);
+}
+
+form {
+    width: 200px;
+    margin: 10px auto;
+    margin-top: 10px;
+}
+
+input {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.poke-name {
+    text-align: center;
+}
+
+.poke-id {
+    text-align: center;
+}
+
+.poke-card {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 800px;
+    border-radius: 4px;
+    color: white;
+    padding: 60px;
+    margin: 0 auto;
+    background-color: rgb(41, 39, 39);
+    border: 1px solid white;
+}
+
+.poke-card::before {
+    content: '';
+    background-size: 3px 2px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.poke-peso div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.poke-altura div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.poke-base div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.poke-info div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.poke-id div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.img {
+    width: 180px;
+    height: 80px;
+}
